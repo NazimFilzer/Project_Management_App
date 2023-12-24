@@ -1,2 +1,1 @@
-Just Dowload the Zip, Then open terminal and type nmp install
-Then type npm run dev
+Hosted Link - https://main--precious-souffle-b679d3.netlify.app/
