@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "JetBrains Mono", monospace;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+}
+
+.side-bar {
+    background-color: #799be0;
+    color: #fff;
+    height: 90vh;
+    width: 250px;
+    /* position: fixed; */
+    margin-top: 50px;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.side-bar h2 {
+    margin: 2.5em 1.5em;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.side-bar ul {
+    list-style: none;
+    margin-left: -3px;
+}
+
+.side-bar ul li button:hover {
+    background-color: #6c8dd9;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    width: 110px;
+}
+
+.side-bar ul li button {
+    background-color: #799be0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-30 {
+    margin-left: 36px;
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-30:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-30:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.new-project {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5em;
+    margin-left: 1.5em;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #dee4ef;
+}
+
+.title {
+    display: flex;
+    height: 55px;
+}
+
+#delete-btn {
+    margin-left: 10em;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+}
+
+#due-date {
+    margin: 0;
+    font-size: 0.69rem;
+    color: #8c8c8c;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 0;
+    border-top: 3px solid #000000;
+}
+
+#task button {
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    cursor: pointer;
+    height: 10px;
+    width: 100px;
+}
+
+#task input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #dee4ef;
+}
+
+#task li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#task li button {
+    margin: 10px;
+}

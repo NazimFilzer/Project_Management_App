@@ -1,0 +1,3 @@
+Prop Drilling and its issue. (How to avoid them is in next section)
+
+
