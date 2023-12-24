@@ -1,5 +1,5 @@
 import NewProject from './components/NewProject.jsx';
-import SideBar from './components/Sidebar.jsx';
+import SideBar from './components/SideBar.jsx';
 import NoProject from './components/NoProject.jsx';
 import { useState } from 'react';
 import SelectedProject from './components/SelectedProject.jsx';
